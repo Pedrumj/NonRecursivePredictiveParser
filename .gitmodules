@@ -1,0 +1,6 @@
+[submodule "Additional Source Files/grammartoparsetable"]
+	path = Additional Source Files/grammartoparsetable
+	url = https://github.com/pedrumj/grammartoparsetable
+[submodule "7a0b0f46563c3202735f"]
+	path = 7a0b0f46563c3202735f
+	url = https://gist.github.com/7a0b0f46563c3202735f
