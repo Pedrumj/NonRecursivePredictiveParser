@@ -7,3 +7,6 @@
 [submodule "Additional Source Files/093fee9b4175c7443c21"]
 	path = Additional Source Files/093fee9b4175c7443c21
 	url = https://gist.github.com/pedrumj/093fee9b4175c7443c21
+[submodule "Additional Source Files/parsetreestruct"]
+	path = Additional Source Files/parsetreestruct
+	url = https://github.com/pedrumj/parsetreestruct
