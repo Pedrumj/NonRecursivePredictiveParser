@@ -7,3 +7,6 @@
 [submodule "Additional Source Files/parsetreestruct"]
 	path = Additional Source Files/parsetreestruct
 	url = https://github.com/pedrumj/parsetreestruct
+[submodule "Additional Source Files/grammartoparsetable"]
+	path = Additional Source Files/grammartoparsetable
+	url = https://github.com/pedrumj/grammartoparsetable
