@@ -5,7 +5,7 @@
 #include "Additional Source Files\ParseTreeStruct\ParseTree.h"
 
 //See documentation for explanation on the input parameters
-void Parse(int ** __Grammers, int *__Rows, int __countRows,  int __countTerminals,int __countNonterminals, int *__intInput, int __CountInput){
+struct ParseTree* Parse(int ** __Grammers, int *__Rows, int __countRows,  int __countTerminals,int __countNonterminals, int *__intInput, int __CountInput){
 
 	int **_parseTable;
 	struct stack *_ItemStack = (struct stack*)malloc(sizeof(struct stack));
@@ -22,7 +22,7 @@ void Parse(int ** __Grammers, int *__Rows, int __countRows,  int __countTerminal
 	_parseTable = Generate(__Grammers, __Rows, __countRows, __countTerminals, __countNonterminals);
 	//push $
 	Push(&_ItemStack, __countTerminals +__countNonterminals+1);
-	_ptrCurrentNode = NewParseTree();
+	_ptrCurrentNode = CreateParseTree();
 	_ptrCurrentNode->value =0;
 	_ptrHeader = _ptrCurrentNode;
 	
@@ -80,6 +80,6 @@ void Parse(int ** __Grammers, int *__Rows, int __countRows,  int __countTerminal
 		}
 	}
 
-	PrintTree(_ptrHeader);
+	return _ptrHeader;
 }
 
