@@ -4,6 +4,6 @@
 [submodule "Example/7a0b0f46563c3202735f"]
 	path = Example/7a0b0f46563c3202735f
 	url = https://gist.github.com/7a0b0f46563c3202735f
-[submodule "Additional Source Files/--force"]
-	path = Additional Source Files/--force
+[submodule "Additional Source Files/ParseTreeStruct"]
+	path = Additional Source Files/ParseTreeStruct
 	url = https://github.com/pedrumj/ParseTreeStruct
